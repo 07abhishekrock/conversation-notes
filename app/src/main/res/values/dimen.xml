@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screenPadding">16dp</dimen>
+    <dimen name="bigTextSize">30dp</dimen>
+    <dimen name="titleTextSize">22dp</dimen>
+    <dimen name="bodyLarge">18dp</dimen>
+    <dimen name="bodyMedium">15dp</dimen>
+    <dimen name="bodyRegular">12dp</dimen>
+</resources>

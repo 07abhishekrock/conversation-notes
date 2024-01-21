@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".ProminentAppBarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="?attr/colorOnSurfaceInverse"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:elevation="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/prominent_app_bar_title_layout"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/common_google_signin_btn_icon_dark"
+                android:layout_marginRight="10dp"
+                android:contentDescription="Some Image"
+                android:id="@+id/prominent_app_bar_back_btn"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Prominent App Bar"
+                android:textSize="18dp"
+                android:alpha="0"
+                android:gravity="center_vertical"
+                android:id="@+id/prominent_app_bar_title_compressed"
+                />
+        </LinearLayout>
+        <TextView
+            android:elevation="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prominent App Bar"
+            android:textSize="25dp"
+            android:height="40dp"
+            android:id="@+id/prominent_app_bar_title"
+            />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior=".ProminentAppBarActivityBehaviour">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus sed viverra tellus in hac habitasse. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Felis eget nunc lobortis mattis aliquam faucibus. Nunc sed augue lacus viverra vitae. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Arcu cursus vitae congue mauris rhoncus aenean vel. Massa eget egestas purus viverra accumsan in nisl. Volutpat commodo sed egestas egestas. Blandit massa enim nec dui nunc mattis enim. Pulvinar pellentesque habitant morbi tristique. Vivamus at augue eget arcu dictum varius duis at. Suspendisse ultrices gravida dictum fusce. Pellentesque diam volutpat commodo sed. At ultrices mi tempus imperdiet nulla malesuada pellentesque.
+
+            Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Condimentum id venenatis a condimentum vitae sapien. Vitae tortor condimentum lacinia quis vel eros. Maecenas sed enim ut sem viverra aliquet. Sed turpis tincidunt id aliquet risus. Nibh mauris cursus mattis molestie a iaculis. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Malesuada bibendum arcu vitae elementum curabitur vitae. Turpis egestas pretium aenean pharetra magna ac placerat. Dis parturient montes nascetur ridiculus.
+
+            Odio euismod lacinia at quis risus sed vulputate odio ut. Commodo nulla facilisi nullam vehicula ipsum. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Ultricies leo integer malesuada nunc. Sociis natoque penatibus et magnis. Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus. Feugiat nibh sed pulvinar proin gravida hendrerit. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. In hac habitasse platea dictumst. Arcu bibendum at varius vel pharetra vel turpis. Integer vitae justo eget magna fermentum iaculis.
+
+            Consectetur lorem donec massa sapien faucibus et molestie ac. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Id porta nibh venenatis cras sed. Mauris commodo quis imperdiet massa. Commodo elit at imperdiet dui accumsan. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Enim nunc faucibus a pellentesque. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Diam quam nulla porttitor massa id neque. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Elementum eu facilisis sed odio. Lectus mauris ultrices eros in cursus turpis. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Condimentum lacinia quis vel eros donec ac.
+
+            Neque gravida in fermentum et sollicitudin. Sapien faucibus et molestie ac. Sit amet est placerat in egestas erat imperdiet. Ac orci phasellus egestas tellus. Ut diam quam nulla porttitor massa id. Id cursus metus aliquam eleifend mi in nulla posuere. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sit amet mauris commodo quis imperdiet. Mauris vitae ultricies leo integer malesuada nunc vel. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. Nunc vel risus commodo viverra. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+
+            Tincidunt augue interdum velit euismod in pellentesque massa placerat. Massa massa ultricies mi quis hendrerit dolor. Vel fringilla est ullamcorper eget nulla. Turpis tincidunt id aliquet risus feugiat in. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Dui nunc mattis enim ut. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Platea dictumst quisque sagittis purus sit amet. Facilisi cras fermentum odio eu. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Eget dolor morbi non arcu risus quis varius quam. Varius sit amet mattis vulputate enim nulla aliquet. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Enim sed faucibus turpis in eu mi bibendum neque. Egestas diam in arcu cursus euismod. Auctor augue mauris augue neque gravida in. Est pellentesque elit ullamcorper dignissim. Quam lacus suspendisse faucibus interdum.
+
+            Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Eu sem integer vitae justo eget. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Sed risus pretium quam vulputate. Imperdiet proin fermentum leo vel orci. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Amet justo donec enim diam vulputate ut pharetra sit amet. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Dignissim sodales ut eu sem integer vitae justo eget magna. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Amet mattis vulputate enim nulla aliquet porttitor. Vulputate eu scelerisque felis imperdiet proin. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Elit eget gravida cum sociis natoque penatibus et magnis.
+
+            Quis viverra nibh cras pulvinar mattis. Iaculis nunc sed augue lacus viverra vitae congue eu consequat. Ac turpis egestas maecenas pharetra convallis posuere. Malesuada bibendum arcu vitae elementum curabitur vitae. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Leo in vitae turpis massa sed. Volutpat sed cras ornare arcu. Egestas pretium aenean pharetra magna ac placerat vestibulum. Tempus urna et pharetra pharetra massa massa. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Vitae tortor condimentum lacinia quis vel eros donec. Eget nulla facilisi etiam dignissim diam quis enim. In tellus integer feugiat scelerisque varius morbi enim. Arcu ac tortor dignissim convallis aenean et. Purus non enim praesent elementum facilisis leo. Nulla facilisi morbi tempus iaculis. Eget arcu dictum varius duis at consectetur lorem donec.
+
+            Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Ultricies mi eget mauris pharetra et ultrices neque ornare. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem. Mauris cursus mattis molestie a iaculis at erat pellentesque. Maecenas sed enim ut sem viverra aliquet eget sit amet. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Id semper risus in hendrerit gravida rutrum quisque non tellus. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vel facilisis volutpat est velit egestas dui. Semper risus in hendrerit gravida rutrum. Dui nunc mattis enim ut tellus elementum sagittis vitae. Dictum sit amet justo donec enim diam vulputate ut pharetra. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Bibendum neque egestas congue quisque. Vel quam elementum pulvinar etiam. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
+
+            Amet facilisis magna etiam tempor orci eu. Consectetur a erat nam at lectus urna duis convallis convallis. Ultricies lacus sed turpis tincidunt id. Vestibulum mattis ullamcorper velit sed. Tellus cras adipiscing enim eu turpis egestas pretium aenean. Iaculis eu non diam phasellus vestibulum lorem sed risus. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Sed id semper risus in hendrerit gravida rutrum. Molestie at elementum eu facilisis sed odio morbi quis commodo. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Quis ipsum suspendisse ultrices gravida dictum fusce ut. Ac tortor dignissim convallis aenean et tortor at. Fermentum odio eu feugiat pretium nibh ipsum consequat. Volutpat lacus laoreet non curabitur. Et tortor consequat id porta nibh venenatis cras sed felis. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Lorem sed risus ultricies tristique nulla aliquet. Diam in arcu cursus euismod quis viverra."></TextView>
+    </androidx.core.widget.NestedScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:layout_gravity="bottom"
+        >
+       <TextView
+           android:layout_width="wrap_content"
+           android:textColor="@android:color/white"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textSize="20dp"
+           android:text="Hello world"
+           >
+       </TextView>
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

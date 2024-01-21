@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConversationNotes</string>
+    <string name="sign_in_with_google">Login With Google</string>
+    <string name="sort_label">Sort By</string>
+    <string name="sort_option_all">All</string>
+    <string name="sort_option_most_recent">Most Recent</string>
+</resources>

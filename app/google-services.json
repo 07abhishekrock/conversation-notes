@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "646827740578",
+    "project_id": "kanta-ben-v1",
+    "storage_bucket": "kanta-ben-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646827740578:android:83b7fdafdc51f6599176fb",
+        "android_client_info": {
+          "package_name": "com.ajrocks.conversationnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646827740578-0a7aao4dmk03r6c50cki8gjida9hifsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajrocks.conversationnotes",
+            "certificate_hash": "a58dd916b07c4e658405d5c709829dfa423a084c"
+          }
+        },
+        {
+          "client_id": "646827740578-0iqh6o6u0va009pegdvm1no81kgonliv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajrocks.conversationnotes",
+            "certificate_hash": "3b3461f874c461eb1fc2f9f45f56476990bcbc1a"
+          }
+        },
+        {
+          "client_id": "646827740578-obhm9ajqn1l8vtf6dl0126oeg1cu43et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzmx1GbWLYT6uBPc-eGgc00eT6iPoKtBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646827740578-1nlc0coq2skf0b2ouacv0qqn44vptbln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

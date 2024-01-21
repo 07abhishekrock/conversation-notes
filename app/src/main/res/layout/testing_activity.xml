@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ajrocks.conversationnotes.TestingViewViewGroup
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/testing_activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.ajrocks.conversationnotes.TestingLeftBackBtn
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/common_google_signin_btn_icon_dark"
+        tools:visibility="visible" />
+
+    <com.ajrocks.conversationnotes.TestingTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My world is long"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_light"
+        />
+<!--    <com.ajrocks.conversationnotes.TestingAction-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:src="@drawable/baseline_logout_24"-->
+<!--        tools:visibility="visible" />-->
+
+<!--    <com.ajrocks.conversationnotes.TestingAction-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:src="@drawable/baseline_logout_24"-->
+<!--        tools:visibility="visible" />-->
+
+
+
+
+
+</com.ajrocks.conversationnotes.TestingViewViewGroup>

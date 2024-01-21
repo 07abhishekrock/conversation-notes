@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate
+    android:drawable="@drawable/progress_activity"
+    android:pivotY="50%"
+    android:pivotX="50%"
+    android:visible="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</rotate>
+<!--<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:drawable="@drawable/progress_activity" >-->
+<!--    <target-->
+<!--        android:name="loader"-->
+<!--        android:animation="@animator/rotate" />-->
+<!--</animated-vector>-->

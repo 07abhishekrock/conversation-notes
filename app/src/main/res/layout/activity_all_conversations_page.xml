@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllConversationsPage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarAllConversations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleEnabled="false"
+        >
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:elevation="0dp"
+                app:logo="@drawable/mainicon_applogo"
+                app:menu="@menu/common_top_bar"
+                app:title="All Conversations"
+                app:titleMarginStart="30dp"
+                app:titleTextColor="?attr/colorOnPrimary" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingHorizontal="?attr/screenPadding"
+               android:paddingVertical="10dp"
+               android:background="?attr/colorOnSurfaceInverse"
+               android:layout_marginTop="?attr/actionBarSize"
+               >
+
+              <com.google.android.material.textview.MaterialTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="?attr/titleTextSize"
+                  android:layout_marginRight="15dp"
+                  android:text="@string/sort_label"
+                 />
+
+              <com.google.android.material.chip.Chip
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:checkable="true"
+                  android:checked="true"
+                  android:id="@+id/sort_all_option"
+                  android:text="@string/sort_option_all" />
+
+               <com.google.android.material.chip.Chip
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:checkable="true"
+                   android:checked="false"
+                   android:id="@+id/sort_most_recent_option"
+                   android:layout_marginLeft="10dp"
+                   android:text="@string/sort_option_most_recent" />
+
+           </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_conversations_rv"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

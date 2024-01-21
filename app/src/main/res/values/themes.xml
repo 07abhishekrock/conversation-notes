@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="screenPadding" format="dimension"/>
+    <attr name="logoBorder" format="color"/>
+    <attr name="bigTextSize">30dp</attr>
+    <attr name="titleTextSize">18dp</attr>
+    <attr name="bodyLarge">15dp</attr>
+    <attr name="bodyMedium">12dp</attr>
+
+    <style name="Theme.ConversationNotes.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="screenPadding">16dp</item>
+        <item name="bigTextSize">30dp</item>
+        <item name="titleTextSize">18dp</item>
+        <item name="bodyLarge">18dp</item>
+        <item name="bodyMedium">15dp</item>
+    </style>
+
+    <style name="Theme.ConversationNotes.OnSecondary" parent="Theme.ConversationNotes.Base">
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.ConversationNotes.TextCommon" parent="Theme.ConversationNotes">
+        <item name="android:lineSpacingMultiplier">0</item>
+        <item name="android:lineSpacingExtra">1dp</item>
+    </style>
+
+    <style name="Theme.ConversationNotes.BigText" parent="Theme.ConversationNotes.TextCommon">
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="Theme.ConversationNotes.TitleText" parent="Theme.ConversationNotes.TextCommon">
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+
+    <style name="Theme.ConversationNotes" parent="Theme.ConversationNotes.Base" >
+        <item name="logoBorder">@color/light_white</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <declare-styleable name="item">
+        <attr name="actionIcon" format="enum">
+            <enum name="first" value="0"/>
+            <enum name="second" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

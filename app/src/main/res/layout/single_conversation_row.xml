@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="?attr/colorPrimaryContainer"
+    android:layout_marginBottom="10dp"
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:theme="@style/Theme.ConversationNotes.OnSecondary"
+        android:src="@drawable/baseline_logout_24"
+        android:id="@+id/single_conversation_row_image"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="?attr/bodyLarge"
+            android:textColor="?attr/colorSecondary"
+            android:id="@+id/single_conversation_row_title"
+            android:text="Sneha"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="?attr/bodyMedium"
+            android:textColor="?attr/colorControlActivated"
+            android:id="@+id/single_conversation_row_subTitle"
+            android:text="Last conversation we need to have"
+                />
+    </LinearLayout>
+
+</LinearLayout>
